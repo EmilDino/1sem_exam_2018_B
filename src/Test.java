@@ -26,7 +26,20 @@ public class Test {
 
         // tester om logToConsol virker
         Video m2 = new Video();
-        m2.setName("julekalender ");
+        m2.setName("Video1 ");
+        m2.setFileName("julekalender.mp4");
+        m2.setFotograf("András");
 
+        m2.logToConsol();
+
+        System.out.println(m2.toString());
+
+        Artikel m3 = new Artikel();
+        m3.setName("mosemanden");
+        m3.setFileName("mosemanden.txt");
+        m3.setForfatter("Steven");
+
+
+        m3.logToConsol();
     }
 }

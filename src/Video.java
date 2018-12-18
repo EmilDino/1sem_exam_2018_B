@@ -45,7 +45,8 @@ public class Video extends Media {
                 "Asset id is: " + getAssetId() +
                         "\n Name is: " + getName() +
                         "\n File created: " + getCreated() +
-                        "\n Mediatype is: " + getClass()
+                        "\n Mediatype is: " + getClass() +
+                        "\n Fotograf is: " + getFotograf()
 
         );
     }

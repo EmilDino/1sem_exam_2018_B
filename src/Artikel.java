@@ -17,4 +17,16 @@ public class Artikel extends Media{
     public void setArtikkeltekst(String artikkeltekst) {
         this.artikkeltekst = artikkeltekst;
     }
+
+    @Override
+    public void logToConsol() {
+        System.out.println(
+                "Asset id is: " + getAssetId() +
+                        "\n Name is: " + getName() +
+                        "\n File created: " + getCreated() +
+                        "\n Mediatype is: " + getClass() +
+                        "\n Forfatter is: " + getForfatter()
+
+        );
+    }
 }
