@@ -51,6 +51,8 @@ public class Media {
         this.fileName = fileName;
     }
 
+
+
     @Override
     public String toString() {
         // returner de nedenstående Strings og variabler
@@ -60,5 +62,15 @@ public class Media {
                 ", created=" + created +
                 ", fileName='" + fileName + '\'' +
                 '}';
+    }
+
+    public void logToConsol() {
+        System.out.println(
+                "Asset id is: " + getAssetId() +
+                        "\n Name is: " + getName() +
+                        "\n File created: " + getCreated() +
+                        "\n Mediatype is: " + getClass()
+
+        );
     }
 }

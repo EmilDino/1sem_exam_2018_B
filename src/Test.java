@@ -16,11 +16,17 @@ public class Test {
         // sætter m1 fileName til "julemand.jpg"
         m1.setFileName("julemand.jpg");
 
+        m1.logToConsol();
+
         // kalder toString metoden i som returner m1's assatId, name, created og fileName
         /// og printer det
         System.out.println(m1.toString());
 
         // Her kommer din kode
+
+        // tester om logToConsol virker
+        Video m2 = new Video();
+        m2.setName("julekalender ");
 
     }
 }

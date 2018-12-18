@@ -35,4 +35,15 @@ public class Billede extends Media {
     public void setFotograf(String fotograf) {
         this.fotograf = fotograf;
     }
+
+    @Override
+    public void logToConsol() {
+        System.out.println(
+                "Asset id is: " + getAssetId() +
+                        "\n Name is: " + getName() +
+                        "\n File created: " + getCreated() +
+                        "\n Mediatype is: " + getClass()
+
+        );
+    }
 }

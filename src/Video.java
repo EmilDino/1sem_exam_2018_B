@@ -2,7 +2,10 @@ public class Video extends Media {
     private String filType;
     private int længde;
     private String opløsning;
-    private String fotograft;
+    private String fotograf;
+
+
+
 
     public String getFilType() {
         return filType;
@@ -28,11 +31,22 @@ public class Video extends Media {
         this.opløsning = opløsning;
     }
 
-    public String getFotograft() {
-        return fotograft;
+    public String getFotograf() {
+        return fotograf;
     }
 
-    public void setFotograft(String fotograft) {
-        this.fotograft = fotograft;
+    public void setFotograf(String fotograf) {
+        this.fotograf = fotograf;
+    }
+
+    @Override
+    public void logToConsol() {
+        System.out.println(
+                "Asset id is: " + getAssetId() +
+                        "\n Name is: " + getName() +
+                        "\n File created: " + getCreated() +
+                        "\n Mediatype is: " + getClass()
+
+        );
     }
 }
