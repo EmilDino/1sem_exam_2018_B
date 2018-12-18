@@ -16,6 +16,7 @@ public class Test {
         // sætter m1 fileName til "julemand.jpg"
         m1.setFileName("julemand.jpg");
 
+        // tester om ToConsol metoden virker
         m1.logToConsol();
 
         // kalder toString metoden i som returner m1's assatId, name, created og fileName
@@ -24,7 +25,7 @@ public class Test {
 
         // Her kommer din kode
 
-        // tester om logToConsol virker
+        // tester om logToConsol er blevet overridden
         Video m2 = new Video();
         m2.setName("Video1 ");
         m2.setFileName("julekalender.mp4");

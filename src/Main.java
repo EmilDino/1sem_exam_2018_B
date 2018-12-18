@@ -8,6 +8,7 @@ public class Main {
         // Kører Test klassen og dens metode test, som bliver vist i konsollen
         Test.test();
 
+        MediaManager.logMediaFolder("media");
     }
 }
 
