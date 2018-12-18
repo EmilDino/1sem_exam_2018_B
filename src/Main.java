@@ -5,6 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // Kører Test klassen og dens metode test, som bliver vist i konsollen
         Test.test();
 
     }
