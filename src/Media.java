@@ -65,6 +65,7 @@ public class Media {
     }
 
     public void logToConsol() {
+        // printer de nedenstående variabler ud i consolen
         System.out.println(
                 "Asset id is: " + getAssetId() +
                         "\n Name is: " + getName() +

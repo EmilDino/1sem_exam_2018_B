@@ -4,6 +4,8 @@ public class Billede extends Media {
     private int længde;
     private String fotograf;
 
+
+    // getter og setter's for de enkelte variabler
     public String getFiltype() {
         return filtype;
     }

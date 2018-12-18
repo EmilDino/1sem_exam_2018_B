@@ -6,7 +6,7 @@ public class Video extends Media {
 
 
 
-
+    // getter og setter's for de enkelte variabler
     public String getFilType() {
         return filType;
     }

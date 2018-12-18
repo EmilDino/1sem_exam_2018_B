@@ -2,6 +2,8 @@ public class Artikel extends Media{
     private String forfatter;
     private String artikkeltekst;
 
+
+    // getter og setter's for de enkelte variabler
     public String getForfatter() {
         return forfatter;
     }
